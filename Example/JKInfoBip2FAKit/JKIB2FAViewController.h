@@ -7,7 +7,9 @@
 //
 
 @import UIKit;
+#import <JKInfoBip2FAKit/JKIB2FARequest.h>
 
-@interface JKIB2FAViewController : UIViewController
+@interface JKIB2FAViewController : UIViewController<JKIB2FARequestDelegate>
+
 
 @end

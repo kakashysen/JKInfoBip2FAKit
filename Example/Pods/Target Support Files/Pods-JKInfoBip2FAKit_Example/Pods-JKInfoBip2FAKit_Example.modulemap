@@ -1,0 +1,6 @@
+framework module Pods_JKInfoBip2FAKit_Example {
+  umbrella header "Pods-JKInfoBip2FAKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,33 @@
+PODS:
+  - AFNetworking (3.0.0):
+    - AFNetworking/NSURLSession (= 3.0.0)
+    - AFNetworking/Reachability (= 3.0.0)
+    - AFNetworking/Security (= 3.0.0)
+    - AFNetworking/Serialization (= 3.0.0)
+    - AFNetworking/UIKit (= 3.0.0)
+  - AFNetworking/NSURLSession (3.0.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.0)
+  - AFNetworking/Security (3.0.0)
+  - AFNetworking/Serialization (3.0.0)
+  - AFNetworking/UIKit (3.0.0):
+    - AFNetworking/NSURLSession
+  - JKInfoBip2FAKit (0.1.1):
+    - AFNetworking (= 3.0.0)
+
+DEPENDENCIES:
+  - JKInfoBip2FAKit (from `../`)
+
+EXTERNAL SOURCES:
+  JKInfoBip2FAKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 932ff751f9d6fb1dad0b3af58b7e3ffba0a4e7fd
+  JKInfoBip2FAKit: c82ba472df5ebbd07da17e5322c032aca9760be7
+
+PODFILE CHECKSUM: 45ffaf2212230604d5fd4392c0263c9771cfe29b
+
+COCOAPODS: 1.1.1

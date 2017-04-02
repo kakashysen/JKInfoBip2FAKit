@@ -1,0 +1,6 @@
+framework module JKInfoBip2FAKit {
+  umbrella header "JKInfoBip2FAKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
