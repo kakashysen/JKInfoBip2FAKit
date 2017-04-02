@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JKInfoBip2FAKit_Example' do
+  pod 'JKInfoBip2FAKit', :path => '../'
+
+  target 'JKInfoBip2FAKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
